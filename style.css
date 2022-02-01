@@ -47,6 +47,11 @@ main{
     padding-bottom: 6%;
 }
 
+.mainIndex div img:hover{
+    transform:scale(1.2,1.2);
+    animation-delay:all 5s;
+}
+
 main p{
     font-size: 11px;
 }
@@ -131,6 +136,10 @@ nav{
     grid-template-rows: 0.1fr repeat(6, 0.26fr 1fr);
 }
 
+.mainPrendas div img:hover{
+    transform:scale(1.1,1.1);
+}
+
 .h2Prendas{
     grid-column: 1/5;
     background-color:black;
@@ -158,6 +167,10 @@ nav{
     background-color: rgba(128, 128, 128, 0.288);
 }
 
+.hiperv h3:hover{
+    transform:scale(1.2,1.2);
+}
+
 .hipervLargo h3{
     padding: 0.5%;
     color: black;
@@ -175,11 +188,23 @@ nav{
     font-size: 80%;
 }
 
+.hiperv h4:hover{
+    transform:scale(1.2,1.2);
+}
+
 .hipervLargo h4 a{
     padding: 0.5%;
     color: rgb(109, 109, 109);
     border:solid 4px rgba(128, 128, 128, 0.288);
     font-size: 80%;
+}
+
+.hipervLargo h3:hover{
+    transform:scale(1.2,1.2);
+}
+
+.hipervLargo h4:hover{
+    transform:scale(1.2,1.2);
 }
 
 @media only screen and (min-width:780px) {
@@ -204,132 +229,9 @@ nav{
 }
 
 /*                                                   BOX MODELING */
-/* .filas{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 3%;
-    padding-left: 5.5%;
-} */
+/* PAGINA TALLES */
 
-/*/ PAGINA DE INICIO /*/
-
-/* *{
-    margin: 0px;
-    padding: 0px;
-}
-
-a{
-    color:grey;
-    text-decoration: none;
-    padding: 1%;
-    font-style: oblique;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-main{
-    background-image: url(https://i.pinimg.com/originals/e7/c3/2a/e7c32af39ea9cef9af48b7473e6ec2db.jpg);
-    background-repeat:cover;
-}
-
-.h1{
-    background-color: black;
-    color:white;
-    text-align: center;
-    font-size: 75%;
-}
-
-.logojt{
-    width: 5%;
-    position: relative;
-    left: 7%;
-}
-
-.logojt, nav{
-    margin: 0.5%;
-    display: inline;
-}
-
-header nav{
-    position: relative;
-    left: 15%;
-    bottom: 1.5rem;
-    font-size:120%;
-}
-
-.destacados{
-    background-color: black;
-}
-
-.ofertas{
-    width: 20%;
-    position:relative;
-    left: 40%;
-}
-
-main h2{
-    text-align: center;
-    font-style: oblique;
-    margin: 70px;
-}
-
-.ropaOfertajpg div{
-    margin:3%;
-    padding: 1.5% 4% 0% 1.5%;
-    display: inline-block;
-}
-
-footer{
-    background-color: black;
-}
-
-footer{
-    color: whitesmoke;
-    font-size: 90%;
-    padding:1% 0% 1% 2%;
-    margin-bottom: 0px;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-footer li{
-    list-style: none;
-}
-
-/*/ PAGINA PRENDAS /*/
-
-.h2Prendas{
-    background-color:whitesmoke;
-    color:lightslategrey;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-main section div{
-    margin:10px;
-    padding: 10px 30px 40px 70px;
-    display: inline-block;
-}
-
-h3, h4{
-    display: inline;
-    margin-left: 15px;
-    margin-top: 0px;
-}
-
-.hipervinculos h4 a{
-    color: gray;
-}
-
-/*/ PAGINA TALLES /*/
-
-.h2Talles{
+/*.h2Talles{
     text-align: center;
     background-color:whitesmoke;
     color:lightslategrey;
@@ -408,4 +310,4 @@ form div{
 
 label{
     font-weight: 800;
-} */
+} /*/
