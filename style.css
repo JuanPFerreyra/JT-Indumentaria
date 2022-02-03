@@ -1,43 +1,39 @@
-/*                                                      FLEXBOX Y GRID */
-
 /* INICIO */
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 
 a{
     color:grey;
     text-decoration: none;
     padding: 1%;
     font-style: oblique;
-}
-
-body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
     background-image: url(https://i.pinimg.com/originals/e7/c3/2a/e7c32af39ea9cef9af48b7473e6ec2db.jpg);
     background-repeat:cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.h1{
+/* .h1{
     display: flex;
     justify-content: center;
     background-color: black;
     color:white;
     font-size: 75%;
-}
+} */
 
-.logoNav{
+/* .logoNav{
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     font-size: 11px;
 }
-
+ */
 .mainIndex{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -109,25 +105,25 @@ a{
     font-style: oblique;
 }
 
-.h1{
+/* .h1{
     display: flex;
     justify-content: center;
     background-color: black;
     color:white;
     font-size: 75%;
-}
+} */
 
-.logoNav{
+/* .logoNav{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     text-align: center;
     font-size: 11px;
-}
+} */
 
-nav{
+/* nav{
     width:69%;
-}
+} */
 
 .mainPrendas{
     display: grid;
