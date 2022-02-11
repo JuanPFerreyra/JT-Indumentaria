@@ -1,0 +1,81 @@
+.mainPrendas{
+    display: grid;
+    text-align: center;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 0.1fr repeat(5, 0.26fr 1fr);
+
+    div img{
+        transition: all 0.6s;
+
+        &:hover{
+            transform:scale(1.1,1.1);
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+    }
+
+    .h2Prendas{
+        grid-column: 1/5;
+        background-color:black;
+        color:white;
+        font-size: 90%;
+        height: 90%;
+    }
+    
+    .hiperv{
+        display: flex;
+        justify-content: space-around;
+        grid-column: 1/5;
+        background-color: whitesmoke;
+        height: 40px;
+        padding: 2%;
+
+        h3{
+            padding: 0.5%;
+            color: black;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 50%;
+            border:solid 5px rgba(128, 128, 128, 0.288);
+            background-color: rgba(128, 128, 128, 0.288);
+
+            &:hover{
+                transform:scale(1.2,1.2);
+            }
+        }
+        
+        h4 a{
+            padding: 0.5%;
+            color: rgb(109, 109, 109);
+            border:solid 4px rgba(128, 128, 128, 0.288);
+            font-size: 50%;
+        }
+
+        h4:hover{
+            transform:scale(1.2,1.2);
+        }
+    }
+
+    h3, h4{
+        transition: all 0.3s;
+    }
+}
+
+@media only screen and (min-width:780px) {
+    .h2Prendas{
+        height: 30px;
+    }
+
+    .hiperv h3{
+        padding: 0.6px;
+        height: fit-content;
+        font-size: 130%;
+    }
+
+    .hiperv h4{
+        padding: 0.6px;
+        width: 100%;
+        font-size: 200%;
+    }
+}

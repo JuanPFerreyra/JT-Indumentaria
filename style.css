@@ -107,17 +107,17 @@ footer li{
 
 /* PRENDAS */
 
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 
-a{
+/* a{
     color:grey;
     text-decoration: none;
     padding: 1%;
     font-style: oblique;
-}
+} */
 
 /* .h1{
     display: flex;
@@ -157,7 +157,7 @@ a{
     height: 90%;
 }
 
-.hiperv, .hipervLargo{
+.hiperv{
     display: flex;
     justify-content: space-around;
     grid-column: 1/5;
@@ -207,11 +207,6 @@ a{
         width: 100%;
         font-size: 200%;
     }
-
-    main p{
-        font-size: 18px;
-    }
-
 }
 
 /*                                                   BOX MODELING */
