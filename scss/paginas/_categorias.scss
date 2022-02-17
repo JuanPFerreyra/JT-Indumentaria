@@ -9,9 +9,9 @@
 
         &:hover{
             transform:scale(1.1,1.1);
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 5px 0px map-get($colores, colorSombraFotos);
+            -webkit-box-shadow: 10px 10px 5px 0px map-get($colores, colorSombraFotos);
+            -moz-box-shadow: 10px 10px 5px 0px map-get($colores, colorSombraFotos);
         }
     }
 
@@ -24,8 +24,7 @@
     }
     
     .hiperv{
-        display: flex;
-        justify-content: space-around;
+        @extend %flexRow;
         grid-column: 1/5;
         background-color: whitesmoke;
         height: 40px;
@@ -37,8 +36,8 @@
             font-style: italic;
             font-weight: 900;
             font-size: 50%;
-            border:solid 5px rgba(128, 128, 128, 0.288);
-            background-color: rgba(128, 128, 128, 0.288);
+            border:solid 5px map-get($colores, colorMarcoHiperv);
+            background-color: map-get($colores, colorMarcoHiperv);
 
             &:hover{
                 transform:scale(1.2,1.2);
@@ -62,7 +61,7 @@
     }
 }
 
-@media only screen and (min-width:780px) {
+@include mediaQ{
     .h2Prendas{
         height: 30px;
     }
@@ -79,3 +78,4 @@
         font-size: 200%;
     }
 }
+

@@ -14,7 +14,7 @@ footer{
     }
 }
 
-@media only screen and (min-width:780px) {
+@include mediaQ{
     footer ul li img{
         width: 1.6%;
     }

@@ -1,5 +1,5 @@
 a{
-    color:grey;
+    color:map-get($colores, colorNav);
     text-decoration: none;
     padding: 1%;
     font-style: oblique;
@@ -7,7 +7,7 @@ a{
 }
 
 main{
-    background-image: url(https://i.pinimg.com/originals/e7/c3/2a/e7c32af39ea9cef9af48b7473e6ec2db.jpg);
+    background-image: $ImagenDeFondo;
     background-repeat:cover;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -17,7 +17,7 @@ main{
 }
 
 
-@media only screen and (min-width:780px) {
+@include mediaQ{
     main p{
         font-size: 18px;
     }
