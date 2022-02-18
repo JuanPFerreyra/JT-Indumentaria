@@ -1,0 +1,8 @@
+ KEYWORDS
+Se le colocaron keywords a todos los html, sumando otras relacionadas al contenido de las diferentes paginas.
+
+ TITULOS
+Se le colocaron títulos a cada html con palabras clave que indican el contenido de la página.
+
+ DESCRIPTION
+Se le colocaron descripciones a cada html explicando brevemente el contenido de la página y con lo que el cliente puede interactuar en la misma.
