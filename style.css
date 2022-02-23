@@ -107,26 +107,6 @@ footer li{
 
 /* PRENDAS */
 
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
-
-/* a{
-    color:grey;
-    text-decoration: none;
-    padding: 1%;
-    font-style: oblique;
-} */
-
-/* .h1{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color:white;
-    font-size: 75%;
-} */
-
 .mainPrendas{
     display: grid;
     text-align: center;
@@ -209,86 +189,12 @@ footer li{
     }
 }
 
-/*                                                   BOX MODELING */
-/* PAGINA TALLES */
+@media only screen and (max-width:700px) {
+    .remera{
+        display: none;
+    }
 
-/*.h2Talles{
-    text-align: center;
-    background-color:whitesmoke;
-    color:lightslategrey;
-    margin-top: 0px;
-    margin-bottom: -50px;
+    .pantalon{
+        display: none;
+    }
 }
-
-main h2, a{
-    margin-top: 65px;
-    color: black;
-}
-
-.talleRemera{
-    margin-top: -35px;
-    margin-bottom: -100px;
-    padding-left:300px;
-}
-
-.tallePantalon{
-    margin-top: -35px;
-    margin-bottom: 70px;
-    padding: 0px 0px 0px 300px;
-}
-
-table{
-    display: inline-block;
-    margin-left:100px;
-    margin-bottom: 50px;
-}
-
-.imgRemera{
-    margin-bottom: 75px;
-}
-
-/*/ PAGINA PREGUNTAS /*/
-
-.h2Preguntas{
-    text-align: center;
-    background-color:whitesmoke;
-    color:lightslategrey;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-.maps{
-    padding-bottom: 20px;
-}
-
-/*/ PAGINA CONTACTO /*/
-
-.h2Contacto{
-    background-color:whitesmoke;
-    color:lightslategrey;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-ul{
-    margin: 0px 0px 0px 130px;
-    list-style: none;
-    font-style:oblique;
-}
-
-form div{
-    margin: 0px 0px 0px 350px;
-    padding:5px;
-}
-
-.abc{
-    margin-top: 10px;
-}
-
-.enviar{
-    margin-bottom: 87px; /*/ Quita franja blanca al fondo de la pag /*/
-}
-
-label{
-    font-weight: 800;
-} /*/

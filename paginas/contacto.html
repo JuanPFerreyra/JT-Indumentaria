@@ -17,9 +17,9 @@
 <body class="body">
     <header>
         <h1 class="h6 container-fluid text-center bg-dark bg-gradient text-white">INDUMENTARIA FEMENINA</h1>
-        <section class="row">
-            <a href="../index.html"  class="col-1"><img src="/imagenes/logojt.png" class="img-fluid"></img></a>
-            <nav class="col-10 my-auto text-center">
+        <section class="row logoNav">
+            <a href="../index.html"  class="col-2"><img src="/imagenes/logojt.png" alt="logo" class="img-fluid"></img></a>
+            <nav class="col my-auto text-center">
                 <a href="../index.html">INICIO</a>
                 <a href="../paginas/categorias.html">PRENDAS</a>
                 <a href="../paginas/tabladetalles.html">TABLA DE TALLES</a>
@@ -30,35 +30,30 @@
     </header>
     <main>
         <h2 class="h4 container-fluid text-center bg-dark bg-gradient text-white">NUESTRO CONTACTO</h2>
-        <form>
-            <ul>
-                <div class="row">
-                    <li>
-                        <label for="nombre" class="col-2 text-center">Nombre y apellido</label>
-                        <input type="text" id="nombre"></input>
-                    </li>
+        <section>
+            <form class="text-center">
+                <div class="pb-3">
+                    <label for="#nombre">NOMBRE:</label>
+                    <input type="text" id="#nombre"></input>
                 </div>
-                <div class="row">
-                    <li>
-                        <label for="mail" class="col-2 text-center">Mail</label>
-                        <input type="text" id="mail"></input>
-                    </li>
+                <div class="pb-3">
+                    <label for="#apellido">APELLIDO:</label>
+                    <input type="text" id="#apellido"></input>
                 </div>
-                <div class="row">
-                    <li>
-                        <label for="telefono" class="col-2 text-center">Teléfono</label>
-                        <input type="text" id="telefono"></input>
-                    </li>
+                <div class="pb-3">
+                    <label for="#email">EMAIL:</label>
+                    <input type="email" id="#email"></input>
                 </div>
-                <div class="row">
-                    <li>
-                        <label for="consulta" class="col-2 text-center">Ingrese su consulta</label>
-                        <textarea rows="9" cols="50" id="consulta" class="col-10"></textarea>
-                    </li>
-                        <input type="button" value="Enviar" class="col-1"></input>
+                <div class="pb-3">
+                    <label for="#telefono">TELÉFONO:</label>
+                    <input type="tel" id="#telefono"></input>
+                </div>  
+                <div>
+                    <textarea placeholder="Escribe aca tu mensaje" cols="30" rows="10"></textarea>
                 </div>
-            </ul>
-        </form>
+                <input class="inputSubmit border-dark my-2" type="submit" value="ENVIAR"></input>
+            </form>
+        </section>
     </main>
     <footer>
         <h3>
@@ -66,11 +61,11 @@
         </h3>
         <ul>
             <li>
-                <img src="../imagenes/instagram.png" width="15"></img>
+                <img src="../imagenes/instagram.png" width="3%" alt="instagram"></img>
                 <a href="https://instagram.com/jt._indumentaria?utm_medium=copy_link" target="_blank">Instagram</a>
             </li>
             <li>
-                <img src="../imagenes/wsp.png" width="15"></img>
+                <img src="../imagenes/wsp.png" width="2.5%" alt="whatsapp"></img>
                 <a href="https://wa.me/c/5493513062293" target="_blank">Tienda Whatsapp</a>
             </li>
         </ul>
